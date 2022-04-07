@@ -1,0 +1,8 @@
+<div class="row  animate__delay-2s">
+  <div class="col-sm-4" *ngFor="let item of resultado">
+    <figure class="figure">
+      <img [src]="item.images.original.url" class="figure-img img-fluid rounded" alt="...">
+      <figcaption class="figure-caption">{{item.title}}</figcaption>
+    </figure>
+  </div>
+</div>
